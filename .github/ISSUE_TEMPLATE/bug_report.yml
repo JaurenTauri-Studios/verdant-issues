@@ -1,0 +1,71 @@
+---
+name: Bug report
+about: Create a report to help us improve
+title: 'Bug: '
+labels: 'low: bug'
+assignees: 'Just-a-Unity-Dev'
+
+---
+
+**Platform**: *Android/iOS/Mac/Windows/Linux*
+
+**Build**: *The exact build number you downloaded.*
+
+**Issue**: *Explain your issue in detail.*
+
+**Steps to reproduce**: *How you happened across the issue, and what exactly you did to make the bug happen.*
+
+**(Crash) logs**: *Either crash reports from the crash folder, or the file you get when you go into Settings -> Game Data -> Export Crash logs. REQUIRED if you are reporting a crash.*
+
+---
+
+*Place an X (no spaces) between the brackets to confirm that you have read the line below.*  
+- [ ] **I have searched the closed and open issues to make sure that this problem has not already been reported.**
+
+name: Bug Report
+description: Report unintentional features of Verdant
+title: "Bug: Title"
+labels: [low: bug]
+body:
+  - type: dropdown
+    id: platform
+    attributes:
+      label: What platform are you seeing this bug on?
+      options:
+        - Windows
+        - MacOS
+        - Linux
+        - Web
+    validations:
+      required: true
+        
+  - type: input
+    id: version
+    attributes:
+      label: "The exact version number you downloaded the game from. DO NOT PUT LATEST."
+    validations:
+      required: true
+        
+  - type: textarea
+    id: description
+    attributes:
+      label: "Describe the bug you are having, please include screenshots of the bug"
+    validations:
+      required: true
+  - type: textarea
+    id: description2
+    attributes:
+      label: "Describe the steps on how to reproduce the bug."
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: "**Logs** REQUIRED if you are reporting a crash.*"
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Before making this issue, check the boxes below to confirm that you have acknowledged them.
+      options:
+        - label: I have read [README.md](https://github.com/VerdantGameOfficial/issues/blob/main/README.md#things-i-wont-add) to make sure my idea is not listed under the "things I wont add" category.
+          required: true
