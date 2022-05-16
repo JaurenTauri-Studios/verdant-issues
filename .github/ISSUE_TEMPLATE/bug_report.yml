@@ -1,7 +1,7 @@
 name: Bug Report
 description: Report unintentional features of Verdant
 title: "Bug: Title"
-labels: [low: bug]
+labels: ["low: bug"]
 body:
   - type: dropdown
     id: platform
