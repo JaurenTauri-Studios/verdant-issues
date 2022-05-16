@@ -37,7 +37,7 @@ body:
   - type: textarea
     id: logs
     attributes:
-      label: "**Logs** REQUIRED if you are reporting a crash.*"
+      label: "**Logs** (Required)"
   - type: checkboxes
     id: confirmation
     attributes:
