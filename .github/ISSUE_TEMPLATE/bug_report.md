@@ -7,32 +7,17 @@ assignees: 'Just-a-Unity-Dev'
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+**Platform**: *Android/iOS/Mac/Windows/Linux*
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+**Build**: *The exact build number you downloaded.*
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+**Issue**: *Explain your issue in detail.*
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+**Steps to reproduce**: *How you happened across the issue, and what exactly you did to make the bug happen.*
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+**(Crash) logs**: *Either crash reports from the crash folder, or the file you get when you go into Settings -> Game Data -> Export Crash logs. REQUIRED if you are reporting a crash.*
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+---
 
-**Additional context**
-Add any other context about the problem here.
+*Place an X (no spaces) between the brackets to confirm that you have read the line below.*  
+- [ ] **I have searched the closed and open issues to make sure that this problem has not already been reported.**
