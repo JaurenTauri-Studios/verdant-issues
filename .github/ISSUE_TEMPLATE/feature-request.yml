@@ -1,0 +1,24 @@
+name: Feature Request
+description: Suggest new content or mechanics for Verdant
+title: "Title"
+labels: [feature request]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "Describe the content or mechanics you want changed/added/removed"
+    validations:
+      required: true
+  - type: textarea
+    id: description2
+    attributes:
+      label: "Describe how you think this content will improve the game. If you're proposing new content, mention how it may add more gameplay options or how it will fill a new niche."
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Before making this issue, check the boxes below to confirm that you have acknowledged them.
+      options:
+        - label: I have read [README.md](https://github.com/VerdantGameOfficial/issues/blob/main/README.md#things-i-wont-add) to make sure my idea is not listed under the "things I wont add" category.
+          required: true
