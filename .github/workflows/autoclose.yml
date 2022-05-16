@@ -1,0 +1,16 @@
+name: 'Close stale issues'
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/stale@v3
+        with:
+          stale-issue-message: 'This issue is now stale, and will be automatically closed in 1 day. If this bug is still happening in later versions, please re-open the issue or make a new one'
+          days-before-stale: 7
+          days-before-close: 1
+          operations-per-run: 30
